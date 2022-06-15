@@ -75,7 +75,7 @@ function operatorButton(arg) {
         input = 0;
     }
 
-    if (arg == "-" && isNaN(queue[0]) && input !== "-") {
+    if (arg == "-" && input !== "-") {
         input = "-";
         document.getElementById("answer").innerHTML = "-";
     }
